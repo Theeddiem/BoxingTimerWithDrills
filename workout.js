@@ -45,22 +45,17 @@ const workout = [
             {
                 explanation: "Jab, Slip left, Roll.",
                 duration: 90,
-                instructions: "Ensure you rotate your hips and pivot your feet for power. Keep your guard up."
+                instructions: "Ensure you rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
             },
             {
-                explanation: "Jab, Right Hook, Roll, Cross",
+                explanation: "Jab, Right Hook, Roll,  Righ Cross/Hook",
                 duration: 90,
-                instructions: "Focus on maintaining balance while slipping and throwing quick jabs."
+                instructions: "Focus on maintaining balance while slipping. Roll after the hook, keeping your weight centered to fire the cross with power."
             },
             {
-                explanation: "Jab, Cross , Left Hook, Roll, Left Hook",
+                explanation: "Jab, Cross, Left Hook, Roll, Left Hook",
                 duration: 90,
-                instructions: "Focus on maintaining balance while slipping and throwing quick jabs."
-            },
-            {
-                explanation: "1-2-3 combo followed by a slip and counter with a left hook.",
-                duration: 90,
-                instructions: "After the combo, slip and quickly counter with a left hook. Stay light on your feet."
+                instructions: "After throwing the hook, smoothly transition into the roll. Keep your core engaged and follow up with a powerful second hook."
             }
         ]
     },
@@ -68,12 +63,12 @@ const workout = [
         title: "Round 2: Slip and Counter Combinations",
         drills: [
             {
-                explanation: "1-2 with a slip left, then a counter right hook.",
+                explanation: "1-2 with a slip right, then a counter right hook.",
                 duration: 60,
                 instructions: "Practice the timing of your slip and ensure a powerful counter."
             },
             {
-                explanation: "Slip right and counter with a left uppercut.",
+                explanation: "Slip right and counter with a right uppercut.",
                 duration: 60,
                 instructions: "Focus on using your legs to create power in the uppercut."
             },
