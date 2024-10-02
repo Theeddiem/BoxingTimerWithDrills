@@ -15,35 +15,61 @@ const workout = [
         ]
     },
     {
-        title: "Round 0: Only Head Movments",
+        title: "Round 1: Only Head Movments",
         drills: [
             {
-                explanation: "Slip left, slip right, roll under left, roll under right (repeat 6 times).",
+                explanation: "Slip left, slip right, roll under left, roll under right.",
                 duration: 90,
                 instructions: "Focus on smooth, fluid transitions between slips and rolls. Keep your hands up and use your legs for balance."
             },
             {
-                explanation: "Slip right, slip left, duck, roll under left, roll under right, move back (repeat 6 times).",
+                explanation: "Slip right, slip left, duck, roll under rigjy, roll under left, move back.",
                 duration: 90,
                 instructions: "Keep your movements quick and controlled. After moving back, reset your stance and repeat the sequence."
             },
             {
-                explanation: "Slip left, slip right, duck, move back, roll under left, roll under right (repeat 6 times).",
+                explanation: "Slip left, slip right, duck, move back, roll under left, roll under right.",
                 duration: 90,
                 instructions: "Engage your core and maintain good posture as you transition between movements. Stay low during ducks and rolls."
             },
             {
-                explanation: "Slip right, roll under left, roll under right, move back, slip left, roll under right (repeat 6 times).",
+                explanation: "Slip right, roll under left, roll under right, move back, slip left, roll under right.",
                 duration: 90,
                 instructions: "Stay light on your feet. Visualize dodging an opponent's punches while keeping your head and body in constant motion."
             }
         ]
     },
+
     {
-        title: "Round 1: Advanced Basic Punches",
+        title: "Round 2: Slip and Counter Combinations",
+        drills: [
+            {
+                explanation: "1-2 with a slip right, then a counter right hook.",
+                duration: 60,
+                instructions: "Practice the timing of your slip and ensure a powerful counter."
+            },
+            {
+                explanation: "Slip right and counter with a right uppercut.",
+                duration: 60,
+                instructions: "Focus on using your legs to create power in the uppercut."
+            },
+            {
+                explanation: "1-2-3 combo, then slip left and throw body hooks.",
+                duration: 60,
+                instructions: "Stay low while slipping and ensure your body hooks are powerful."
+            }
+        ]
+    },
+    {
+        title: "Round 3: Slip and Rolls & Counter Combinations",
         drills: [
             {
                 explanation: "Jab, Slip left, Roll.",
+                duration: 90,
+                instructions: "Ensure you rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
+            },
+            {
+                explanation: "Jab, Cross, Slip right, Roll.",
                 duration: 90,
                 instructions: "Ensure you rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
             },
@@ -60,27 +86,7 @@ const workout = [
         ]
     },
     {
-        title: "Round 2: Slip and Counter Combinations",
-        drills: [
-            {
-                explanation: "1-2 with a slip right, then a counter right hook.",
-                duration: 60,
-                instructions: "Practice the timing of your slip and ensure a powerful counter."
-            },
-            {
-                explanation: "Slip right and counter with a right uppercut.",
-                duration: 60,
-                instructions: "Focus on using your legs to create power in the uppercut."
-            },
-            {
-                explanation: "1-2-3 combo, then slip left/right and throw body hooks.",
-                duration: 60,
-                instructions: "Stay low while slipping and ensure your body hooks are powerful."
-            }
-        ]
-    },
-    {
-        title: "Round 3: Complex Combinations",
+        title: "Round 4: Complex Combinations",
         drills: [
             {
                 explanation: "1-2-3-4 combo (Jab, Cross, Left Hook, Right Uppercut).",
@@ -95,7 +101,7 @@ const workout = [
         ]
     },
     {
-        title: "Round 4: Defensive Techniques",
+        title: "Round 5: Defensive Techniques",
         drills: [
             {
                 explanation: "Slip left, counter with a left hook; slip right, counter with a right uppercut.",
@@ -110,7 +116,7 @@ const workout = [
         ]
     },
     {
-        title: "Round 5: Advanced Head Movement and Body Shots",
+        title: "Round 6: Advanced Head Movement and Body Shots",
         drills: [
             {
                 explanation: "Slips and weaves with light punches.",
@@ -125,7 +131,7 @@ const workout = [
         ]
     },
     {
-        title: "Round 6: Freestyle Combos with Defense",
+        title: "Round 7: Freestyle Combos with Defense",
         drills: [
             {
                 explanation: "Combine slips, weaves, and various combinations.",
@@ -135,7 +141,7 @@ const workout = [
         ]
     },
     {
-        title: "Round 7: Speed and Agility",
+        title: "Round 8: Speed and Agility",
         drills: [
             {
                 explanation: "Fast 1-2 combo, focusing on speed.",
@@ -155,7 +161,7 @@ const workout = [
         ]
     },
     {
-        title: "Round 8: Power Focus with Defense",
+        title: "Round 9: Power Focus with Defense",
         drills: [
             {
                 explanation: "Throw 1-2 with power. Focus on strong punches.",
@@ -171,21 +177,6 @@ const workout = [
                 explanation: "Power uppercuts with full extension.",
                 duration: 60,
                 instructions: "Emphasize technique and power, while keeping your guard up."
-            }
-        ]
-    },
-    {
-        title: "Round 9: Defense and Counter Drills",
-        drills: [
-            {
-                explanation: "Slip and counter with a hook or uppercut.",
-                duration: 90,
-                instructions: "Focus on timing and angles for effective counters."
-            },
-            {
-                explanation: "Parry and immediately counter with a jab or cross.",
-                duration: 90,
-                instructions: "Work on your reaction time and maintaining an active guard."
             }
         ]
     },
