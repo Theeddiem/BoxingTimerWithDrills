@@ -3,11 +3,14 @@
 let currentRound = 0;
 let currentDrill = 0;
 let timeRemaining = workout[currentRound].drills[currentDrill].duration;
+
+
 let timerInterval;
 
 const workoutTitle = document.getElementById('workout-title');
 const workoutExplanation = document.getElementById('workout-explanation');
 const workoutInstructions = document.getElementById('workout-instructions');
+const workoutTime = document.getElementById('total-workout-time');
 const timerDisplay = document.getElementById('timer');
 const startButton = document.getElementById('start-btn');
 const pauseButton = document.getElementById('pause-btn');
@@ -15,7 +18,7 @@ const delayInput = document.getElementById('delay-input');
 const bellSound = document.getElementById('bell-sound');
 const prevButton = document.getElementById('prev-btn'); // Previous button
 const nextButton = document.getElementById('next-btn'); // Next button
-
+workoutTime.innerText = workoutTime.innerText + " " + calculateTotalDuration(workout);
 
 let isPaused = false; // Variable to track if the workout is paused
 
@@ -142,4 +145,20 @@ function nextDrill() {
         timeRemaining = workout[currentRound].drills[currentDrill].duration;
         displayWorkoutInfo();
     }
+}
+
+function calculateTotalDuration(workoutArray) {
+    let totalDuration = 0;
+
+    workoutArray.forEach(round => {
+        round.drills.forEach(drill => {
+            totalDuration += drill.duration;
+        });
+    });
+    const hours = Math.floor(totalDuration / 3600);
+    const minutes = Math.floor((totalDuration % 3600) / 60);
+    const remainingSeconds = totalDuration % 60;
+
+    return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+
 }

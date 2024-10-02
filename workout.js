@@ -15,20 +15,50 @@ const workout = [
         ]
     },
     {
+        title: "Round 0: Only Head Movments",
+        drills: [
+            {
+                explanation: "Slip left, slip right, roll under left, roll under right (repeat 6 times).",
+                duration: 90,
+                instructions: "Focus on smooth, fluid transitions between slips and rolls. Keep your hands up and use your legs for balance."
+            },
+            {
+                explanation: "Slip right, slip left, duck, roll under left, roll under right, move back (repeat 6 times).",
+                duration: 90,
+                instructions: "Keep your movements quick and controlled. After moving back, reset your stance and repeat the sequence."
+            },
+            {
+                explanation: "Slip left, slip right, duck, move back, roll under left, roll under right (repeat 6 times).",
+                duration: 90,
+                instructions: "Engage your core and maintain good posture as you transition between movements. Stay low during ducks and rolls."
+            },
+            {
+                explanation: "Slip right, roll under left, roll under right, move back, slip left, roll under right (repeat 6 times).",
+                duration: 90,
+                instructions: "Stay light on your feet. Visualize dodging an opponent's punches while keeping your head and body in constant motion."
+            }
+        ]
+    },
+    {
         title: "Round 1: Advanced Basic Punches",
         drills: [
             {
-                explanation: "1-2-3 combo (Jab, Cross, Left Hook) while moving.",
-                duration: 60,
+                explanation: "Jab, Slip left, Roll.",
+                duration: 90,
                 instructions: "Ensure you rotate your hips and pivot your feet for power. Keep your guard up."
             },
             {
-                explanation: "Jab and slip (slip left/right) while stepping.",
-                duration: 30,
+                explanation: "Jab, Right Hook, Roll, Cross",
+                duration: 90,
                 instructions: "Focus on maintaining balance while slipping and throwing quick jabs."
             },
             {
-                explanation: "1-2-3 combo followed by a slip and counter with a hook.",
+                explanation: "Jab, Cross , Left Hook, Roll, Left Hook",
+                duration: 90,
+                instructions: "Focus on maintaining balance while slipping and throwing quick jabs."
+            },
+            {
+                explanation: "1-2-3 combo followed by a slip and counter with a left hook.",
                 duration: 90,
                 instructions: "After the combo, slip and quickly counter with a left hook. Stay light on your feet."
             }
@@ -63,25 +93,15 @@ const workout = [
                 instructions: "Emphasize smooth transitions between punches. Keep your form tight."
             },
             {
-                explanation: "1-2 followed by a slip and a 1-2 to the body.",
+                explanation: "1-2 followed by a slip and a 2 to the body.",
                 duration: 60,
                 instructions: "Vary your targets. Keep your chin down and stay agile."
             },
-            {
-                explanation: "Step and pivot while throwing a 1-2-3 combo.",
-                duration: 60,
-                instructions: "Ensure your footwork is light and quick to maintain balance."
-            }
         ]
     },
     {
         title: "Round 4: Defensive Techniques",
         drills: [
-            {
-                explanation: "Practice slipping and weaving under punches.",
-                duration: 60,
-                instructions: "Focus on keeping your head off the center line. Weave low to avoid punches."
-            },
             {
                 explanation: "Slip left, counter with a left hook; slip right, counter with a right uppercut.",
                 duration: 90,
