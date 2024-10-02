@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+input {
+  font-size: 24px; /* Bigger font for the input */
+  padding: 10px; /* Padding for better appearance */
+  margin: 20px 0; /* Space around the input */
+  border: 2px solid #28a745; /* Border color matching the button */
+  border-radius: 5px; /* Rounded corners */
+}
+
+h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#workout-title {
+  color: red;
+}
+
+#workout-instructions {
+  color: gray;
+  font-size: 80px;
+}
+
+#timer {
+  font-size: 96px;
+  margin: 20px 0;
+  color: #000;
+}
+
+button {
+  font-size: 24px; /* Make buttons larger */
+  padding: 10px; /* Padding for better appearance */
+  margin: 10px; /* Space around the buttons */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+button:disabled {
+  background-color: #ccc; /* Gray background for disabled button */
+  cursor: not-allowed; /* Not-allowed cursor for disabled button */
+}
+
+button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shadow Boxing Workout</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shadow Boxing Workout</h1>
+      <h1 id="workout-title"></h1>
+      <h1 id="workout-explanation"></h1>
+      <h1 id="workout-instructions"></h1>
+      <h1 id="timer">00:00</h1>
+      <input
+        type="number"
+        id="delay-input"
+        placeholder="Delay in seconds"
+        min="1"
+        max="120"
+      />
+      <button id="start-btn">Start Workout</button>
+      <button id="pause-btn" disabled>Pause Workout</button>
+      <button id="prev-btn" disabled>Previous Drill</button>
+      <!-- Previous Drill Button -->
+      <button id="next-btn" disabled>Next Drill</button>
+      <!-- Next Drill Button -->
+      <audio id="bell-sound" src="bell.mp3"></audio>
+      <!-- Add your bell sound file here -->
+    </div>
+    <script src="workout.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
