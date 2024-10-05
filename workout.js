@@ -23,7 +23,7 @@ const workout = [
                 instructions: "Focus on smooth, fluid transitions between slips and rolls. Keep your hands up and use your legs for balance."
             },
             {
-                explanation: "Slip right, slip left, duck, roll under rigjy, roll under left, move back.",
+                explanation: "Slip right, slip left, duck, roll under right, roll under left, move back.",
                 duration: 90,
                 instructions: "Keep your movements quick and controlled. After moving back, reset your stance and repeat the sequence."
             },

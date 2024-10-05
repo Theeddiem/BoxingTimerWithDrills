@@ -2,9 +2,28 @@
 
 let currentRound = 0;
 let currentDrill = 0;
+
 let timeRemaining = workout[currentRound].drills[currentDrill].duration;
 
+let rest = {
+    title: "Rest",
+    drills: [
+        {
+            explanation: "",
+            duration: 15,
+            instructions: ""
+        }
+    ]
+}
 
+
+for (let i = 0; i < workout.length; i++) {
+    if (i % 2 !== 0) {
+        workout.splice(i + 1, 0, { ...rest }); // insert new object after the even index
+        i++; // skip the next index since we added a new object
+    }
+}
+console.log(workout)
 let timerInterval;
 
 const workoutTitle = document.getElementById('workout-title');
