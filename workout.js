@@ -71,7 +71,7 @@ const workout = [
                 explanation: "1-2 with step-in to the left and left body hook and left head hook",
                 duration: 60,
                 instructions: "Stay low while slipping and ensure your body hooks are powerful. Angle out after the hooks."
-            }
+            },
             {
                 explanation: "1-2-3 combo, then slip left and throw body hooks.",
                 duration: 60,
