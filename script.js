@@ -167,19 +167,16 @@ function nextDrill() {
 function calculateTotalDuration() {
     let totalDuration = 0;
     let i = currentRound
-    let j = 0
-    console.log(i)
-    console.log(j)
-    for (i = currentRound; i < workout.length; i++) {
+    let j = currentDrill
+    for (i; i < workout.length; i++) {
         let round = workout[i];
-        console.log(round)
-        for (j = 0; j < round.drills.length; j++) {
+        for (j; j < round.drills.length; j++) {
             let drill = round.drills[j];
             console.log(drill.duration)
             totalDuration += drill.duration;
         }
+        j = 0;
     }
-    console.log(totalDuration)
     const hours = Math.floor(totalDuration / 3600);
     const minutes = Math.floor((totalDuration % 3600) / 60);
     const remainingSeconds = totalDuration % 60;
