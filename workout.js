@@ -10,12 +10,12 @@ const workout = [
             {
                 explanation: "Stretching",
                 duration: 120, // 2 minutes of stretching
-                instructions: "Incorporate dynamic stretches for your arms, legs, and torso to prepare your muscles."
+                instructions: "Ankles, Knees, LowerBack, Sides, Arms, Neck."
             }
         ]
     },
     {
-        title: "Round 1: Only Head Movments",
+        title: "Round 1: Only Head Movements",
         drills: [
             {
                 explanation: "Slip left, slip right, roll under left, roll under right.",
@@ -39,49 +39,68 @@ const workout = [
             }
         ]
     },
-
+    {
+        title: "Round 1.5: Basic Punches with Footwork",
+        drills: [
+            {
+                explanation: "Jab",
+                duration: 60,
+                instructions: "Jab to face and body with feints. Focus on footwork, step in and out while maintaining balance."
+            },
+            {
+                explanation: "1-2",
+                duration: 60,
+                instructions: "With step in using left and right foot according to the punches, hands up, fast recovery."
+            },
+            {
+                explanation: "1-2",
+                duration: 60,
+                instructions: "With step out using left and right foot according to the punches, hands up, fast recovery."
+            },
+        ]
+    },
     {
         title: "Round 2: Slip and Counter Combinations",
         drills: [
             {
                 explanation: "1-2 with a slip right, then a counter right hook.",
                 duration: 60,
-                instructions: "Practice the timing of your slip and ensure a powerful counter."
+                instructions: "Practice the timing of your slip and ensure a powerful counter. Use visualization."
             },
             {
                 explanation: "Slip right and counter with a right uppercut.",
                 duration: 60,
-                instructions: "Focus on using your legs to create power in the uppercut."
+                instructions: "Focus on using your legs to create power in the uppercut. Keep breathing sharp with each punch."
             },
             {
                 explanation: "1-2-3 combo, then slip left and throw body hooks.",
                 duration: 60,
-                instructions: "Stay low while slipping and ensure your body hooks are powerful."
+                instructions: "Stay low while slipping and ensure your body hooks are powerful. Angle out after the hooks."
             }
         ]
     },
     {
-        title: "Round 3: Slip and Rolls & Counter Combinations",
+        title: "Round 3: Slip, Roll, & Counter Combinations",
         drills: [
             {
                 explanation: "Jab, Slip left, Roll.",
                 duration: 90,
-                instructions: "Ensure you rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
+                instructions: "Rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
             },
             {
                 explanation: "Jab, Cross, Slip right, Roll.",
                 duration: 90,
-                instructions: "Ensure you rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
+                instructions: "Rotate your hips and pivot your feet for power. Stay low during the roll and keep your guard up."
             },
             {
-                explanation: "Jab, Right Hook, Roll,  Righ Cross/Hook",
+                explanation: "Jab, Right Hook, Roll, Right Cross/Hook",
                 duration: 90,
-                instructions: "Focus on maintaining balance while slipping. Roll after the hook, keeping your weight centered to fire the cross with power."
+                instructions: "Maintain balance while slipping. Roll after the hook, keeping your weight centered for a strong cross."
             },
             {
                 explanation: "Jab, Cross, Left Hook, Roll, Left Hook",
                 duration: 90,
-                instructions: "After throwing the hook, smoothly transition into the roll. Keep your core engaged and follow up with a powerful second hook."
+                instructions: "After throwing the hook, smoothly transition into the roll. Engage your core and maintain breathing control."
             }
         ]
     },
@@ -91,13 +110,13 @@ const workout = [
             {
                 explanation: "1-2-3-4 combo (Jab, Cross, Left Hook, Right Uppercut).",
                 duration: 60,
-                instructions: "Emphasize smooth transitions between punches. Keep your form tight."
+                instructions: "Emphasize smooth transitions between punches. Keep your form tight, and focus on footwork and breathing."
             },
             {
                 explanation: "1-2 followed by a slip and a 2 to the body.",
                 duration: 60,
-                instructions: "Vary your targets. Keep your chin down and stay agile."
-            },
+                instructions: "Vary your targets. Keep your chin down, use angles, and stay agile."
+            }
         ]
     },
     {
@@ -106,12 +125,12 @@ const workout = [
             {
                 explanation: "Slip left, counter with a left hook; slip right, counter with a right uppercut.",
                 duration: 90,
-                instructions: "Aim for quick and powerful counters. Use your body weight effectively."
+                instructions: "Aim for quick, powerful counters. Use your body weight effectively."
             },
             {
                 explanation: "Defensive drills: Parry and counter with a jab.",
                 duration: 60,
-                instructions: "Visualize an opponent's punches and practice your defensive maneuvers."
+                instructions: "Visualize an opponent’s punches and practice your defensive maneuvers with focus on timing."
             }
         ]
     },
@@ -121,12 +140,12 @@ const workout = [
             {
                 explanation: "Slips and weaves with light punches.",
                 duration: 60,
-                instructions: "Incorporate light jabs and hooks while slipping and weaving."
+                instructions: "Incorporate light jabs and hooks while slipping and weaving. Keep movements fluid."
             },
             {
                 explanation: "Throw 1-2 to the head, then body shots (hooks and uppercuts).",
                 duration: 120,
-                instructions: "Focus on fluidity between head and body shots. Maintain a strong stance."
+                instructions: "Focus on fluid transitions between head and body shots. Maintain a strong stance."
             }
         ]
     },
@@ -136,7 +155,7 @@ const workout = [
             {
                 explanation: "Combine slips, weaves, and various combinations.",
                 duration: 180,
-                instructions: "Be creative with your combinations. Visualize an opponent and respond accordingly."
+                instructions: "Be creative with your combinations. Visualize an opponent and respond accordingly, staying dynamic."
             }
         ]
     },
@@ -146,17 +165,17 @@ const workout = [
             {
                 explanation: "Fast 1-2 combo, focusing on speed.",
                 duration: 60,
-                instructions: "Aim for quick, sharp punches while staying balanced."
+                instructions: "Aim for quick, sharp punches while staying balanced. Last 15 seconds at maximum speed."
             },
             {
                 explanation: "Quick alternating hooks and slips.",
                 duration: 60,
-                instructions: "Practice rapid movement while maintaining control over your punches."
+                instructions: "Practice rapid movement while maintaining control over your punches. Finish with a burst of speed."
             },
             {
                 explanation: "Fast alternating uppercuts and defensive slips.",
                 duration: 60,
-                instructions: "Integrate head movement while throwing uppercuts for added defense."
+                instructions: "Integrate head movement while throwing uppercuts for added defense. End with 10 seconds of fast punches."
             }
         ]
     },
@@ -166,7 +185,7 @@ const workout = [
             {
                 explanation: "Throw 1-2 with power. Focus on strong punches.",
                 duration: 60,
-                instructions: "Concentrate on form and full extension for power."
+                instructions: "Concentrate on form and full extension for power. Shadowbox with light weights for added resistance."
             },
             {
                 explanation: "Left and right hooks with full hip rotation.",
@@ -176,7 +195,7 @@ const workout = [
             {
                 explanation: "Power uppercuts with full extension.",
                 duration: 60,
-                instructions: "Emphasize technique and power, while keeping your guard up."
+                instructions: "Emphasize technique and power while keeping your guard up."
             }
         ]
     },
@@ -186,7 +205,7 @@ const workout = [
             {
                 explanation: "Combine all techniques – punches, defense, head movement.",
                 duration: 180,
-                instructions: "Be creative and focus on maintaining fluidity between movements."
+                instructions: "Be creative and focus on maintaining fluidity between movements. Visualize a dynamic opponent."
             }
         ]
     }
