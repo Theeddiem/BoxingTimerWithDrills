@@ -37,7 +37,7 @@ const delayInput = document.getElementById('delay-input');
 const bellSound = document.getElementById('bell-sound');
 const prevButton = document.getElementById('prev-btn'); // Previous button
 const nextButton = document.getElementById('next-btn'); // Next button
-workoutTime.innerText = workoutTime.innerText + " " + calculateTotalDuration(workout);
+workoutTime.innerText = workoutTime.innerText + " " + calculateTotalDuration();
 
 let isPaused = false; // Variable to track if the workout is paused
 
@@ -84,7 +84,6 @@ function updateTimer() {
         displayTime(timeRemaining);
     } else {
         clearInterval(timerInterval);
-        console.log("here")
         playBellSound();
         currentDrill++;
         if (currentDrill < workout[currentRound].drills.length) {
@@ -118,6 +117,7 @@ function togglePause() {
 }
 
 function displayWorkoutInfo() {
+    workoutTime.innerText = calculateTotalDuration();
     workoutTitle.innerText = workout[currentRound].title;
     workoutExplanation.innerText = workout[currentRound].drills[currentDrill].explanation;
     workoutInstructions.innerText = workout[currentRound].drills[currentDrill].instructions;
@@ -151,8 +151,6 @@ function previousDrill() {
 }
 
 function nextDrill() {
-    console.log(currentRound)
-    console.log(workout[currentRound])
 
     if (currentDrill < workout[currentRound].drills.length - 1) {
         currentDrill++;
@@ -166,18 +164,25 @@ function nextDrill() {
     }
 }
 
-function calculateTotalDuration(workoutArray) {
+function calculateTotalDuration() {
     let totalDuration = 0;
-
-    workoutArray.forEach(round => {
-        round.drills.forEach(drill => {
+    let i = currentRound
+    let j = 0
+    console.log(i)
+    console.log(j)
+    for (i = currentRound; i < workout.length; i++) {
+        let round = workout[i];
+        console.log(round)
+        for (j = 0; j < round.drills.length; j++) {
+            let drill = round.drills[j];
+            console.log(drill.duration)
             totalDuration += drill.duration;
-        });
-    });
+        }
+    }
+    console.log(totalDuration)
     const hours = Math.floor(totalDuration / 3600);
     const minutes = Math.floor((totalDuration % 3600) / 60);
     const remainingSeconds = totalDuration % 60;
 
     return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
-
 }

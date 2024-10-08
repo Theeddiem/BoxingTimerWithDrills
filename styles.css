@@ -54,9 +54,13 @@ h1 {
   font-size: 50px;
 }
 
+#workout-explanation {
+  font-size: 75px;
+}
+
 #workout-instructions {
-  color: gray;
-  font-size: 80px;
+  color: rgb(252, 236, 146);
+  font-size: 75px;
 }
 
 #timer {
