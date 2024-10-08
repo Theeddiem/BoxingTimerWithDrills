@@ -172,7 +172,6 @@ function calculateTotalDuration() {
         let round = workout[i];
         for (j; j < round.drills.length; j++) {
             let drill = round.drills[j];
-            console.log(drill.duration)
             totalDuration += drill.duration;
         }
         j = 0;
