@@ -26,24 +26,25 @@
       <h1 id="workout-instructions"></h1>
 
       <h1 id="timer">00:00</h1>
-      <div class="buttons-container">
-        <input
-          type="number"
-          id="delay-input"
-          placeholder="15 Sec"
-          min="1"
-          max="120"
-        />
-        <button id="start-btn">Start Workout</button>
-        <button id="pause-btn" disabled>Pause Workout</button>
-        <button id="prev-btn" disabled>Previous Drill</button>
-        <!-- Previous Drill Button -->
-        <button id="next-btn" disabled>Next Drill</button>
-      </div>
-      <!-- Next Drill Button -->
-      <audio id="bell-sound" src="bell.mp3"></audio>
-      <!-- Add your bell sound file here -->
+
     </div>
+    <div class="buttons-container">
+      <input
+        type="number"
+        id="delay-input"
+        placeholder="15 Sec"
+        min="1"
+        max="120"
+      />
+      <button id="start-btn">Start Workout</button>
+      <button id="pause-btn" disabled>Pause Workout</button>
+      <button id="prev-btn" disabled>Previous Drill</button>
+      <!-- Previous Drill Button -->
+      <button id="next-btn" disabled>Next Drill</button>
+    </div>
+    <!-- Next Drill Button -->
+    <audio id="bell-sound" src="bell.mp3"></audio>
+    <!-- Add your bell sound file here -->
     <script src="workout.js"></script>
     <script src="script.js"></script>
   </body>

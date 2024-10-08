@@ -10,7 +10,7 @@ let rest = {
     drills: [
         {
             explanation: "",
-            duration: 15,
+            duration: 10,
             instructions: ""
         }
     ]
